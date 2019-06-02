@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+        <fieldset>
+                <legend>Dados pessoais</legend>
+                <div style="display: flex">
+                    <div class="imagem">
+                        <img src="personicon.png" alt="" height="150px" width="150px">
+                    </div>
+                    <form action="GET" style="display: flex">
+                        <div class="texto">
+                            <div class="label">
+                                <label for="Nome">Nome:</label>
+                            </div>
+                            <div class="label">
+                                <label for="Nascimento">Nascimento:</label>
+                            </div>
+                            <div class="label">
+                                <label for="Sexo">Sexo:</label>
+                            </div>
+                            <div class="label">
+                                <label for="Formação">Formação:</label>
+                            </div>
+                            <div class="label">
+                                <label for="CPF">CPF:</label>
+                            </div>
+                        </div>
+                        <div class="texto">
+                            <div class="input">
+                                <input type="text" id="textNome" style="width:300px">
+                            </div>
+                            <div class="input">
+                                <input type="date" id="textNascimento" value="date" style="width:175px">
+                            </div>
+                            <div class="input">
+                                <input type="checkbox" name="Sexo" id="M" value="M" id="textSexo">
+                                <label for="M">Masculino</label>
+                                <input type="checkbox" name="Sexo" id="F" value="F" id="textSexo">
+                                <label for="F">Feminino</label>
+                            </div>
+                            <div class="input" style="display: flex">
+                                <select id="">
+                                    <option value="EMC" id="textFormacao">Ensino Médio Completo</option>
+                                </select>
+                                <div id="labelprofissao">
+                                    <label for="Profissão">Profissão:</label>
+                                    <select id="textProfissao">
+                                        <option value="Administrador">Administrador</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="input">
+                                <input type="text" id="textCPF">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </fieldset>
+</body>
+</html>
