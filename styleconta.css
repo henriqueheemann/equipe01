@@ -1,0 +1,41 @@
+html, body {
+    margin: 0;
+}
+#criarconta {
+    height:100%;
+  width:100%;
+  overflow:hidden;
+}
+.label {
+	padding-bottom: 12px;
+	padding-left: 15px;
+}
+.input{
+	padding-left: 8px;
+	padding-bottom: 9px;
+}
+#labelprofissao {
+    padding-left: 130px;
+}
+#inputformacao {
+    width: 250px;
+}
+#labelcep {
+	padding-left: 140px;
+}
+.inputcep {
+	padding-left: 25px;
+}
+#labelcidade {
+	padding-left: 140px;
+}
+.inputcidade {
+	padding-left: 5px;
+}
+#inputestado {
+	width: 40px;
+}
+#botoes {
+	display: flex;
+	margin-left: 2.5px;
+}
