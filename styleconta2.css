@@ -1,0 +1,18 @@
+html, body {
+    margin: 0;
+}
+.texto {
+    text-align: center;
+}
+.canais {
+    margin-left: 25%;
+    margin-top: 5%;
+    height: 256px;
+    width: 256px;
+}
+#proximo {
+    margin-left: 75%;
+    margin-top: 5%;
+    height: 75px;
+    width: 150px;
+}
